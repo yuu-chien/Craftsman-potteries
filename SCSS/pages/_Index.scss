@@ -1,0 +1,71 @@
+.shop-btn, .subscribe-btn {
+    width: 160px;
+    border-radius: 4px;
+    background-color: #0E8A00;
+    color: #fff;
+    border: none;
+    padding: 18px 40px;
+}
+.shop-btn {
+    margin-bottom: 224px;
+}
+
+.header {
+    h2 {
+        margin-top: 160px;
+    }
+}
+
+.header-txt-wrap {
+    width: 445px;
+}
+
+.header-banner {
+    height: 800px;
+    background: url(https://images.unsplash.com/photo-1525974160448-038dacadcc71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80) no-repeat center 0;
+    background-size: cover;
+}
+
+.photo-style {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.price-org {
+    margin-left: 8px;
+    color: #00000062;
+}
+
+
+.txt-wrap {
+    width: 350px;
+}
+
+.product-img {
+    margin-bottom: 8px;
+    position: relative;
+    &:hover {
+        img {
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+    }
+}
+.on-sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+.craftsman-bg {
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1579825317824-2cc3aa33f75a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80) no-repeat center center;
+    background-size: cover;
+}

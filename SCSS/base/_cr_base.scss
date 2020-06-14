@@ -1,0 +1,50 @@
+*{
+    // outline: 1px solid chocolate;
+    font-family: Roboto;
+}
+
+.fz-xl {
+    font-size: 3rem;
+}
+.fz-lg {
+    font-size: 2rem;
+}
+
+.fz-m {
+    font-size: 1.5rem;
+}
+.fz-s {
+    font-size: 14px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.txt-white {
+    color: #fff; 
+}
+.info {
+    color: #0000009A;
+}
+.dark {
+    color: #121212;
+}
+.secondary {
+    color: #FFFFFFDE;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.text-right {
+    text-align: right;
+}
+.Raleway {
+    font-family: Raleway;
+}
+
+// 輪播w套件
+.owl-nav {
+    display: none !important;
+}
+.owl-dots {
+    display: none !important;
+}
